@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  height: 100vh;
+}
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+img,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+/* variáveis dm sans e barlow condensed */
+
+:root {
+  --font-dm-sans: "DM Sans", sans-serif;
+  --font-barlow-condensed: "Barlow Condensed", sans-serif;
+}
